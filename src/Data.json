@@ -1,27 +1,97 @@
-[
+[ 
     {   
-        "carName" : "first",
+        "carName" : "Mercedes Benz M",
+        "carImage" : "/public/images/car1.jpg",
+        "launch" : "2021",
+        "capacity": "4",
+        "fuel": "Hybird",
+        "mileage":"6.1",
+        "drive": "Automatic",
+        "price": "440"
+    },
+    {   
+        "carName" : "Chevrolet",
+        "carImage" : "/public/images/car2.jpg",
+        "launch" : "2019",
+        "capacity": "4",
+        "fuel": "Hybird",
+        "mileage":"8.2",
+        "drive": "Automatic",
+        "price": "200"
+    },
+    {   
+        "carName" : "Lexus LS",
+        "carImage" : "/public/images/car3.jpg",
+        "launch" : "2020",
+        "capacity": "4",
+        "fuel": "Hybird",
+        "mileage":"5.1",
+        "drive": "Automatic",
+        "price": "450"
+    },
+    {   
+        "carName" : "Mercedes-Ben AMG",
+        "carImage" : "/public/images/car4.jpg",
+        "launch" : "2021",
+        "capacity": "4",
+        "fuel": "Gasoline",
+        "mileage":"7.7",
+        "drive": "Automatic",
+        "price": "620"
+    },
+    {   
+        "carName" : "Mercedes-Benz GLE",
+        "carImage" : "/public/images/car5.jpg",
+        "launch" : "2020",
+        "capacity": "4",
+        "fuel": "Hybird",
+        "mileage":"5.5",
+        "drive": "Automatic",
+        "price": "440"
+    },
+    {   
+        "carName" : "Mercedes-Benz S-Guard",
+        "carImage" : "/public/images/car6.jpg",
+        "launch" : "2022",
+        "capacity": "4",
+        "fuel": "Hybird",
+        "mileage":"8.2",
+        "drive": "Automatic",
+        "price": "350"
+    },
+    {   
+        "carName" : "Steeda",
+        "carImage" : "/public/images/car7.jpg",
+        "launch" : "2019",
+        "capacity": "4",
+        "fuel": "Hybird",
+        "mileage":"6.1",
+        "drive": "Automatic",
+        "price": "400"
+    },
+    {   
+        "carName" : "Hyundai",
         "carImage" : "https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cms.haymarketindia.net/model/uploads/modelimages/Hyundai-Grand-i10-Nios-200120231541.jpg&w=373&h=245&q=75&c=1",
         "launch" : "2021",
         "capacity": "4",
         "fuel": "Hybird",
-        "mileage":"6.1",
+        "mileage":"6.5",
         "drive": "Automatic",
         "price": "440"
     },
     {   
-        "carName" : "second",
-        "carImage" : "https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fmercedes-car&psig=AOvVaw38DqpQRUUm65ns8D4BnYEO&ust=1696523767612000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNii4NXp3IEDFQAAAAAdAAAAABAJ",
-        "launch" : "2021",
+        "carName" : "wrangler",
+        "carImage" : "/public/images/car8.jpg",
+        "launch" : "2019",
         "capacity": "4",
         "fuel": "Hybird",
         "mileage":"8.2",
         "drive": "Automatic",
-        "price": "350"
+        "price": "250"
     },
     {   
-        "carName" : "third",
-        "carImage" : "https://media.istockphoto.com/id/901071870/photo/red-abstract-background.jpg?s=1024x1024&w=is&k=20&c=WfJytlj2vUWWjWTDj2S8UdnCmeG-kfmGF64fOeAdlOQ=",
+        "carName" : "Buabus",
+        "carImage" : "/public/images/car9.jpg",
         "launch" : "2020",
         "capacity": "4",
         "fuel": "Hybird",
@@ -30,103 +100,126 @@
         "price": "400"
     },
     {   
-        "carName" : "fourth",
+        "carName" : "Mercedes-Benz ML",
+        "carImage" : "/public/images/car10.jpg",
+        "launch" : "2021",
+        "capacity": "4",
+        "fuel": "Gasoline",
+        "mileage":"7.7",
+        "drive": "Automatic",
+        "price": "620"
+    },
+    {   
+        "carName" : "Mercedes Benz SLR",
+        "carImage" : "/public/images/car11.jpg",
+        "launch" : "2021",
+        "capacity": "4",
+        "fuel": "Hybird",
+        "mileage":"6.1",
+        "drive": "Automatic",
+        "price": "510"
+    },
+    {   
+        "carName" : "Buabus SV12 S",
+        "carImage" : "/public/images/car12.jpg",
+        "launch" : "2019",
+        "capacity": "4",
+        "fuel": "Hybird",
+        "mileage":"8.2",
+        "drive": "Automatic",
+        "price": "350"
+    },
+    {   
+        "carName" : "Buabus",
+        "carImage" : "/public/images/car9.jpg",
+        "launch" : "2020",
+        "capacity": "4",
+        "fuel": "Hybird",
+        "mileage":"6.1",
+        "drive": "Automatic",
+        "price": "400"
+    },
+    {   
+        "carName" : "Mercedes Benz M",
+        "carImage" : "/public/images/car1.jpg",
+        "launch" : "2021",
+        "capacity": "4",
+        "fuel": "Hybird",
+        "mileage":"6.1",
+        "drive": "Automatic",
+        "price": "440"
+    },
+    {   
+        "carName" : "Mercedes-Ben AMG",
+        "carImage" : "/public/images/car4.jpg",
+        "launch" : "2021",
+        "capacity": "4",
+        "fuel": "Gasoline",
+        "mileage":"7.7",
+        "drive": "Automatic",
+        "price": "620"
+    },
+    {   
+        "carName" : "Lexus LS",
+        "carImage" : "/public/images/car3.jpg",
+        "launch" : "2020",
+        "capacity": "4",
+        "fuel": "Hybird",
+        "mileage":"5.1",
+        "drive": "Automatic",
+        "price": "450"
+    },
+    {   
+        "carName" : "Mercedes Benz SLR",
+        "carImage" : "/public/images/car11.jpg",
+        "launch" : "2021",
+        "capacity": "4",
+        "fuel": "Hybird",
+        "mileage":"6.1",
+        "drive": "Automatic",
+        "price": "510"
+    },
+    {   
+        "carName" : "Lexus LS",
+        "carImage" : "/public/images/car3.jpg",
+        "launch" : "2020",
+        "capacity": "4",
+        "fuel": "Hybird",
+        "mileage":"5.1",
+        "drive": "Automatic",
+        "price": "450"
+    },
+    {   
+        "carName" : "Mercedes-Ben AMG",
+        "carImage" : "/public/images/car4.jpg",
+        "launch" : "2021",
+        "capacity": "4",
+        "fuel": "Gasoline",
+        "mileage":"7.7",
+        "drive": "Automatic",
+        "price": "620"
+    },
+    {   
+        "carName" : "Mercedes-Benz GLE",
+        "carImage" : "/public/images/car5.jpg",
+        "launch" : "2020",
+        "capacity": "4",
+        "fuel": "Hybird",
+        "mileage":"5.5",
+        "drive": "Automatic",
+        "price": "440"
+    },
+    {   
+        "carName" : "Hyundai",
         "carImage" : "https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cms.haymarketindia.net/model/uploads/modelimages/Hyundai-Grand-i10-Nios-200120231541.jpg&w=373&h=245&q=75&c=1",
-        "launch" : "2020",
-        "capacity": "4",
-        "fuel": "Gasoline",
-        "mileage":"7.7",
-        "drive": "Automatic",
-        "price": "620"
-    },
-    {   
-        "carName" : "fifth",
-        "carImage" : "",
         "launch" : "2021",
         "capacity": "4",
         "fuel": "Hybird",
-        "mileage":"6.1",
-        "drive": "Automatic",
-        "price": "440"
-    },
-    {   
-        "carName" : "sixth",
-        "carImage" : "",
-        "launch" : "2021",
-        "capacity": "4",
-        "fuel": "Hybird",
-        "mileage":"8.2",
-        "drive": "Automatic",
-        "price": "350"
-    },
-    {   
-        "carName" : "seventh",
-        "carImage" : "",
-        "launch" : "2020",
-        "capacity": "4",
-        "fuel": "Hybird",
-        "mileage":"6.1",
-        "drive": "Automatic",
-        "price": "400"
-    },
-    {   
-        "carName" : "eight",
-        "carImage" : "",
-        "launch" : "2020",
-        "capacity": "4",
-        "fuel": "Gasoline",
-        "mileage":"7.7",
-        "drive": "Automatic",
-        "price": "620"
-    },
-    {   
-        "carName" : "nineth",
-        "carImage" : "",
-        "launch" : "2021",
-        "capacity": "4",
-        "fuel": "Hybird",
-        "mileage":"6.1",
-        "drive": "Automatic",
-        "price": "440"
-    },
-    {   
-        "carName" : "tenth",
-        "carImage" : "",
-        "launch" : "2021",
-        "capacity": "4",
-        "fuel": "Hybird",
-        "mileage":"8.2",
-        "drive": "Automatic",
-        "price": "350"
-    },
-    {   
-        "carName" : "eleventh",
-        "carImage" : "",
-        "launch" : "2020",
-        "capacity": "4",
-        "fuel": "Hybird",
-        "mileage":"6.1",
-        "drive": "Automatic",
-        "price": "400"
-    },
-    {   
-        "carName" : "twelth",
-        "carImage" : "",
-        "launch" : "2020",
-        "capacity": "4",
-        "fuel": "Gasoline",
-        "mileage":"7.7",
-        "drive": "Automatic",
-        "price": "620"
-    },
-    {   
-        "carName" : "thirtheen",
-        "carImage" : "",
-        "launch" : "2021",
-        "capacity": "4",
-        "fuel": "Hybird",
-        "mileage":"6.1",
+        "mileage":"6.5",
         "drive": "Automatic",
         "price": "440"
     }
+
+
+
 ]

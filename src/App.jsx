@@ -1,12 +1,14 @@
 import './App.css'
-import CarHomePage from './Component/CarHomePage'
+import CarHomePage from './Component/CarHomePage';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
-
   return (
-    <>
-      <CarHomePage/>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<CarHomePage/>}/>
+      </Routes>
+    </BrowserRouter>
   )
 }
 

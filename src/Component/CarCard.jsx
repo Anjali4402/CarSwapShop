@@ -1,9 +1,6 @@
 import React from 'react';
-// import image from '../Image/cars (11).jpg'
-import image from '../../public/car1.jpg'
 
 const CarCard = ({values}) => {
-    // console.log(values)
     return (
         <div className='costom-card-border'>
             {/* search icon */}
@@ -13,7 +10,10 @@ const CarCard = ({values}) => {
             <div className="card" style={{ backgroundColor: 'rgba(137, 200, 246, 0.675)'}}>
                     {/* <img className="card-img-top"  src={image} alt="Card image cap"/> */}
                     <div className='p-3' style={{height:"17rem"}}>
+                    {/* <img className="card-img-top"  src={process.env + values.carImage} alt="Car image" style={{borderRadius:'1.5rem'}}/> */}
+                    {/* <img className="card-img-top"  src={require('../assets/images/car1.jpg')} alt="Car image" style={{borderRadius:'1.5rem'}}/> */}
                     <img className="card-img-top"  src={values.carImage} alt="Car image" style={{borderRadius:'1.5rem'}}/>
+                    {/* <img className="card-img-top"  src={image1} alt="Car image" style={{borderRadius:'1.5rem'}}/> */}
 
                     </div>
                     <div className="card-body pt-0">
