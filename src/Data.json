@@ -1,7 +1,7 @@
 [ 
     {   
         "carName" : "Mercedes Benz M",
-        "carImage" : "/images/car1.jpg",
+        "carImage" : "./assets/images/car1.jpg",
         "launch" : "2021",
         "capacity": "4",
         "fuel": "Hybird",
@@ -11,7 +11,7 @@
     },
     {   
         "carName" : "Chevrolet",
-        "carImage" : "/images/car2.jpg",
+        "carImage" : "./assets/images/car2.jpg",
         "launch" : "2019",
         "capacity": "4",
         "fuel": "Hybird",
@@ -21,7 +21,7 @@
     },
     {   
         "carName" : "Lexus LS",
-        "carImage" : "/images/car3.jpg",
+        "carImage" : "./assets/images//car3.jpg",
         "launch" : "2020",
         "capacity": "4",
         "fuel": "Hybird",
@@ -31,7 +31,7 @@
     },
     {   
         "carName" : "Mercedes-Ben AMG",
-        "carImage" : "/images/car4.jpg",
+        "carImage" : "./assets/images/car4.jpg",
         "launch" : "2021",
         "capacity": "4",
         "fuel": "Gasoline",
