@@ -1,17 +1,22 @@
 import React, { useEffect , useRef } from 'react'
 import { useState } from 'react';
-import data from '../Data.json'
-import CarCard from './CarCard';
+// import data from '../Data.json'
+// import CarCard from './CarCard';
 import { DisplayCarOnTheScreen } from '../store/slices/UserSlice';
 import { useSelector , useDispatch } from 'react-redux';
-import { SearchCarByName } from '../store/slices/UserSlice';
-// import { SetsNew } from '../store/slices/UserSlice';
 
 const Pagination = () => {
+    // i should change in setCurrent page // set setCurrent page 1
+    const carname = useSelector((state)=> state.FindCar.carName);
+    useEffect(()=>{
+        console.log(">>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<")
+        setCurrentPage(1)
+    },[carname])
+    
     const dispatch = useDispatch();
-    const searchingval = useSelector((state) => state.FindCar.carName);
-    const resultsaftersearch = useSelector((state)=> state.FindCar.SearchCarResult)
-    console.log('carcar is ', searchingval)
+    // const searchingval = useSelector((state) => state.FindCar.carName);
+    const resultsaftersearch = useSelector((state)=> state.FindCar.SearchCarResult);
+    // console.log('carcar is ', searchingval)
     // const [count , setCount] = useState(0)
     const count = useRef([])
 
@@ -20,26 +25,22 @@ const Pagination = () => {
     const lastIndex = currentPage * recordsPerpage;
     const firstIndex = lastIndex - recordsPerpage;
     const  records = resultsaftersearch.slice(firstIndex, lastIndex)
-    console.log(records)
+    // const  records = resultsaftersearch.slice(0,6)
+    // console.log(records)
+    // console.log(resultsaftersearch)
     // const npage = Math.ceil(displayNotesss.length / recordsPerpage);
     //number of pages should be 10 so i am changin it with 10;
     const npage = 10;
     const numbers = [...Array(npage + 1).keys()].slice(1);
-    console.log('this is final number are', numbers)
-    console.log('first and last index are',firstIndex, lastIndex);
-    console.log('how many numbers of pages is',npage)
-    console.log('what is my current page', currentPage)
-    console.log(records)
-    console.log(numbers)
+    // console.log('this is final number are', numbers)
+    // console.log('how many numbers of pages is',npage)
+    // console.log('what is my current page', currentPage)
+    // console.log(records)
+    // console.log(numbers)
 
 
     useEffect(()=>{
-        // setCount(count+1);
         count.current = records;
-        console.log(count.current)
-        // dispatch(DisplayCarOnTheScreen(count.current))
-        // dispatch(SearchCarByName(count.current))
-        // dispatch(SetsNew(count.current))
         dispatch(DisplayCarOnTheScreen(count.current))
     })
 
@@ -88,7 +89,7 @@ const Pagination = () => {
                     </div>
                     {
                         numbers.map((n,i)=>(
-                            <a className='link-primary' key={i}onClick={()=>changeCPage(n)}>{n}
+                            <a className='link-primary' key={i} onClick={()=>changeCPage(n)}>{n}
                             </a>
                         ))
                     }
@@ -100,29 +101,7 @@ const Pagination = () => {
                 : null
             }
             </div>
-            {/* {
-                npage > 1 ?
             
-                <ul className='bg-danger'>
-                    <li>
-                        <a href="#" className='page-link'
-                        onClick={()=>prePage()}>Prev</a>
-                    </li>
-                    {
-                        numbers.map((n,i)=>(
-                            <li key={i}>
-                                <a href="#" 
-                                onClick={()=>changeCPage(n)}>{n}</a>
-                            </li>
-                        ))
-                    }
-                    <li>
-                        <a href="#" 
-                        onClick={()=>nextPage()}>Next</a>
-                    </li>
-                </ul>
-                : null
-            } */}
             </nav>
         </div>
     )

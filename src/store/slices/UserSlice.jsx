@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
     carName : "",
-    // displayCarItems :  "",
+    CurrentPages: 0,
     SearchCarResult : [],
     displayCarItems : []
 };
@@ -18,16 +18,16 @@ const UserSlice = createSlice({
         TotalCarsResultsAfterSearch : (state, action) => {
             state.SearchCarResult = action.payload;
         },
-        // DisplayCarItemsOnTheScreen : (state, action) => {
-        //     state.displayCarItems = action.payload;
-        // },
         DisplayCarOnTheScreen : (state, action) =>{
             state.displayCarItems = action.payload;
+        },
+        SetCurrentPages : (state, action)=>{
+            state.CurrentPages = action.payload;
         }
     }
 
 });
 
-export const { SearchCarByName, TotalCarsResultsAfterSearch , DisplayCarOnTheScreen } = UserSlice.actions;
+export const { SearchCarByName, TotalCarsResultsAfterSearch , DisplayCarOnTheScreen , SetCurrentPages } = UserSlice.actions;
 
 export default UserSlice.reducer;

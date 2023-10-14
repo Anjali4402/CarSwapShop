@@ -12,21 +12,12 @@
 
 /* css for Navbar.jsx */
 .custom-navbar{
-  /* border: 1px solid; */
   border-radius: 20px;
   box-shadow: 0px 6px 5px 5px rgb(90, 142, 179);
-  /* border: 2px solid red; */
 }
-/* .custom-searchicon{
-  position: absolute;
-  right: 1rem;
-  top:50%;
-  transform: translate(0%,-50%);
-} */
 
 /* css for CarItems */
 .cutom-carItem{
-  border:2px solid red;
   min-height: 60vh;
   height:fit-content;
 }
@@ -35,7 +26,6 @@
 
 /* css for CarCard.jsx */
 .costom-card-border{
-  /* border: 2px solid red; */
   width: 25rem;
   border-radius: 2rem;
   overflow: hidden;

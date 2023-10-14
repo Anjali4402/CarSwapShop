@@ -1,7 +1,7 @@
-import React from 'react'
-import Navbar from './Navbar'
-import Pagination from './Pagination'
-import CarItems from './CarItems'
+import React from 'react';
+import Navbar from './Navbar';
+import Pagination from './Pagination';
+import CarItems from './CarItems';
 
 const CarHomePage = () => {
     return (
