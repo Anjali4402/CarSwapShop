@@ -1,6 +1,7 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 import CarCard from './CarCard';
+import data from '../Data.json'
 
 const CarItems = () => {
     const resultdisplay = useSelector((state)=> state.FindCar.displayCarItems)

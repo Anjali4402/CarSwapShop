@@ -9,7 +9,6 @@ const Pagination = () => {
     // i should change in setCurrent page // set setCurrent page 1
     const carname = useSelector((state)=> state.FindCar.carName);
     useEffect(()=>{
-        console.log(">>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<")
         setCurrentPage(1)
     },[carname])
     
