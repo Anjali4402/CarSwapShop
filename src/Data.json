@@ -1,7 +1,7 @@
 [ 
     {   
         "carName" : "Mercedes Benz M",
-        "carImage" : "/src/assets/images/car1.jpg",
+        "carImage" : "images/car1.jpg",
         "launch" : "2021",
         "capacity": "4",
         "fuel": "Hybird",
@@ -11,7 +11,7 @@
     },
     {   
         "carName" : "Chevrolet",
-        "carImage" : "/src/assets/images/car2.jpg",
+        "carImage" : "images/car2.jpg",
         "launch" : "2019",
         "capacity": "4",
         "fuel": "Hybird",
@@ -21,7 +21,7 @@
     },
     {   
         "carName" : "Lexus LS",
-        "carImage" : "/src/assets/images/car3.jpg",
+        "carImage" : "images/car3.jpg",
         "launch" : "2020",
         "capacity": "4",
         "fuel": "Hybird",
@@ -31,7 +31,7 @@
     },
     {   
         "carName" : "Mercedes-Ben AMG",
-        "carImage" : "/src/assets/images/car4.jpg",
+        "carImage" : "images/car4.jpg",
         "launch" : "2021",
         "capacity": "4",
         "fuel": "Gasoline",
@@ -41,7 +41,7 @@
     },
     {   
         "carName" : "Mercedes-Benz GLE",
-        "carImage" : "/src/assets/images/car5.jpg",
+        "carImage" : "images/car5.jpg",
         "launch" : "2020",
         "capacity": "4",
         "fuel": "Hybird",
@@ -51,7 +51,7 @@
     },
     {   
         "carName" : "Mercedes-Benz S-Guard",
-        "carImage" : "/src/assets/images/car6.jpg",
+        "carImage" : "images/car6.jpg",
         "launch" : "2022",
         "capacity": "4",
         "fuel": "Hybird",
@@ -61,7 +61,7 @@
     },
     {   
         "carName" : "Steeda",
-        "carImage" : "/src/assets/images/car7.jpg",
+        "carImage" : "images/car7.jpg",
         "launch" : "2019",
         "capacity": "4",
         "fuel": "Hybird",
@@ -81,7 +81,7 @@
     },
     {   
         "carName" : "wrangler",
-        "carImage" : "/src/assets/images/car8.jpg",
+        "carImage" : "images/car8.jpg",
         "launch" : "2019",
         "capacity": "4",
         "fuel": "Hybird",
@@ -91,7 +91,7 @@
     },
     {   
         "carName" : "Buabus",
-        "carImage" : "/src/assets/images/car9.jpg",
+        "carImage" : "images/car9.jpg",
         "launch" : "2020",
         "capacity": "4",
         "fuel": "Hybird",
@@ -101,7 +101,7 @@
     },
     {   
         "carName" : "Mercedes-Benz ML",
-        "carImage" : "/src/assets/images/car10.jpg",
+        "carImage" : "images/car10.jpg",
         "launch" : "2021",
         "capacity": "4",
         "fuel": "Gasoline",
@@ -111,7 +111,7 @@
     },
     {   
         "carName" : "Mercedes Benz SLR",
-        "carImage" : "/src/assets/images/car11.jpg",
+        "carImage" : "images/car11.jpg",
         "launch" : "2021",
         "capacity": "4",
         "fuel": "Hybird",
@@ -121,7 +121,7 @@
     },
     {   
         "carName" : "Buabus SV12 S",
-        "carImage" : "/src/assets/images/car12.jpg",
+        "carImage" : "images/car12.jpg",
         "launch" : "2019",
         "capacity": "4",
         "fuel": "Hybird",
@@ -131,7 +131,7 @@
     },
     {   
         "carName" : "Buabus",
-        "carImage" : "/src/assets/images/car9.jpg",
+        "carImage" : "images/car9.jpg",
         "launch" : "2020",
         "capacity": "4",
         "fuel": "Hybird",
@@ -141,7 +141,7 @@
     },
     {   
         "carName" : "Mercedes Benz M",
-        "carImage" : "/src/assets/images/car1.jpg",
+        "carImage" : "images/car1.jpg",
         "launch" : "2021",
         "capacity": "4",
         "fuel": "Hybird",
@@ -151,7 +151,7 @@
     },
     {   
         "carName" : "Mercedes-Ben AMG",
-        "carImage" : "/src/assets/images/car4.jpg",
+        "carImage" : "images/car4.jpg",
         "launch" : "2021",
         "capacity": "4",
         "fuel": "Gasoline",
@@ -161,7 +161,7 @@
     },
     {   
         "carName" : "Lexus LS",
-        "carImage" : "/src/assets/images/car3.jpg",
+        "carImage" : "images/car3.jpg",
         "launch" : "2020",
         "capacity": "4",
         "fuel": "Hybird",
@@ -171,7 +171,7 @@
     },
     {   
         "carName" : "Mercedes Benz SLR",
-        "carImage" : "/src/assets/images/car11.jpg",
+        "carImage" : "images/car11.jpg",
         "launch" : "2021",
         "capacity": "4",
         "fuel": "Hybird",
@@ -181,7 +181,7 @@
     },
     {   
         "carName" : "Lexus LS",
-        "carImage" : "/src/assets/images/car3.jpg",
+        "carImage" : "images/car3.jpg",
         "launch" : "2020",
         "capacity": "4",
         "fuel": "Hybird",
@@ -191,7 +191,7 @@
     },
     {   
         "carName" : "Mercedes-Ben AMG",
-        "carImage" : "/src/assets/images/car4.jpg",
+        "carImage" : "images/car4.jpg",
         "launch" : "2021",
         "capacity": "4",
         "fuel": "Gasoline",
@@ -201,7 +201,7 @@
     },
     {   
         "carName" : "Mercedes-Benz GLE",
-        "carImage" : "/src/assets/images/car5.jpg",
+        "carImage" : "images/car5.jpg",
         "launch" : "2020",
         "capacity": "4",
         "fuel": "Hybird",
