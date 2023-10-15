@@ -1,4 +1,4 @@
-import React from 'react';
+// import required components
 import Navbar from './Navbar';
 import Pagination from './Pagination';
 import CarItems from './CarItems';

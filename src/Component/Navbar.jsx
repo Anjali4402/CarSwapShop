@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import { useDispatch, useSelector  } from 'react-redux';
+import React, { useEffect } from 'react';
+import { useDispatch } from 'react-redux';
 import { SearchCarByName } from '../store/slices/UserSlice';
 import data from '../Data.json';
 import { TotalCarsResultsAfterSearch } from '../store/slices/UserSlice';
@@ -8,14 +8,17 @@ const Navbar = () => {
     // assign useDispatch
     const dispatch = useDispatch();
 
-    // const [searchResults, setSearchResults] = useState(data)
+
     useEffect(()=>{
         dispatch(TotalCarsResultsAfterSearch(data))
     },[])
     
+    // This function will run, When user search any car name.
     const searchCar = (value) =>{
         dispatch(SearchCarByName(value))
 
+
+        // The serarchItems will store all car items that the user searches and that are available.
         const searchItems = data.filter((val)=>{
             if(value == ""){
                 return (
@@ -26,7 +29,6 @@ const Navbar = () => {
                 return val;
             }
         })
-        // setSearchResults(searchItems)
         dispatch(TotalCarsResultsAfterSearch(searchItems))
     }
 
@@ -35,7 +37,11 @@ const Navbar = () => {
             <div className="row py-1">
                 <div className="col-4">
                     <div className="input-group m-2 ">
-                        <input type="search" className="form-control rounded-pill" placeholder='Search...' aria-label='Search' aria-describedby='search-addon' 
+                        <input 
+                            type="search" 
+                            className="form-control rounded-pill" 
+                            placeholder='Search...' 
+                            aria-label='Search' aria-describedby='search-addon' 
                             onChange={(e)=>{searchCar(e.target.value)}}
                         />
                     </div>

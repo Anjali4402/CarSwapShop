@@ -1,41 +1,41 @@
 import React, { useEffect , useRef } from 'react'
 import { useState } from 'react';
-// import data from '../Data.json'
-// import CarCard from './CarCard';
 import { DisplayCarOnTheScreen } from '../store/slices/UserSlice';
 import { useSelector , useDispatch } from 'react-redux';
 
 const Pagination = () => {
-    // i should change in setCurrent page // set setCurrent page 1
+    // assign usedispatch
+    const dispatch = useDispatch();
+
+    // when user search any name the current display page will set 1;
     const carname = useSelector((state)=> state.FindCar.carName);
     useEffect(()=>{
         setCurrentPage(1)
     },[carname])
     
-    const dispatch = useDispatch();
-    // const searchingval = useSelector((state) => state.FindCar.carName);
+
+    // It will store those items which will be found after the user's search.
     const resultsaftersearch = useSelector((state)=> state.FindCar.SearchCarResult);
-    // console.log('carcar is ', searchingval)
-    // const [count , setCount] = useState(0)
+
     const count = useRef([])
 
+    // the current page that display in the webiste.
     const [currentPage, setCurrentPage] = useState(1);
+
+    // how many items will display in one page.
     const recordsPerpage = 6;
+    
+    // last index and firstindex
     const lastIndex = currentPage * recordsPerpage;
     const firstIndex = lastIndex - recordsPerpage;
+
+    // which items will display in one page.
     const  records = resultsaftersearch.slice(firstIndex, lastIndex)
-    // const  records = resultsaftersearch.slice(0,6)
-    // console.log(records)
-    // console.log(resultsaftersearch)
-    // const npage = Math.ceil(displayNotesss.length / recordsPerpage);
-    //number of pages should be 10 so i am changin it with 10;
+
+    // Total how many number of pages in the website , it is by default 10;
     const npage = 10;
+
     const numbers = [...Array(npage + 1).keys()].slice(1);
-    // console.log('this is final number are', numbers)
-    // console.log('how many numbers of pages is',npage)
-    // console.log('what is my current page', currentPage)
-    // console.log(records)
-    // console.log(numbers)
 
 
     useEffect(()=>{
@@ -48,21 +48,13 @@ const Pagination = () => {
 
     const prePage = ()=>{
         if(currentPage !== firstIndex+1){
-            // console.log('current page is not equal to first page')
             setCurrentPage(currentPage - 1)
-        }
-        else{
-            console.log('now current page === firstPage')
         }
     }
 
     const nextPage = ()=>{
         if(currentPage !== npage){
             setCurrentPage(currentPage + 1)
-            // console.log('last page is not equal to npage')
-        }
-        else{
-            console.log('now last page === npage')
         }
     }
 
@@ -74,7 +66,6 @@ const Pagination = () => {
     return (
         <div className='my-4'>
         <nav>
-            {/* <div className="contianer mx-2 px-4 py-2 custom-navbar border d-flex justify-content-between"> */}
             <div className="row mx-2 my-4 px-4 py-2 custom-navbar border">
                 <div className='col-6 d-flex align-items-center'>
                     <h5>{currentPage} from 10</h5>
@@ -99,10 +90,9 @@ const Pagination = () => {
                 </div>
                 : null
             }
-            </div>
-            
-            </nav>
-        </div>
+            </div>    
+        </nav>
+    </div>
     )
 }
 
