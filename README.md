@@ -2,4 +2,4 @@
 
 # CarSwapShop
 
-<strong>Hosted link </strong/> - https://carswapshop.netlify.app/
+<strong>Hosted link </strong> - https://carswapshop.netlify.app/
